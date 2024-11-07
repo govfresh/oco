@@ -1,0 +1,209 @@
+/* ../fonts */
+
+@font-face {
+    font-family: "Public Sans Thin";
+    src: url("../fonts/public-sans/PublicSans-Thin.woff2") format("woff2"),
+        url("../fonts/public-sans/PublicSans-Thin.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Public Sans Light";
+    src: url("../fonts/public-sans/PublicSans-Light.woff2") format("woff2"),
+        url("../fonts/public-sans/PublicSans-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Public Sans Regular";
+    src: url("../fonts/public-sans/PublicSans-Regular.woff2") format("woff2"),
+        url("../fonts/public-sans/PublicSans-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Public Sans Medium";
+    src: url("../fonts/public-sans/PublicSans-Medium.woff2") format("woff2"),
+        url("../fonts/public-sans/PublicSans-Medium.woff") format("woff");
+
+}
+
+@font-face {
+    font-family: "Public Sans Bold";
+    src: url("../fonts/public-sans/PublicSans-Bold.woff2") format("woff2"),
+        url("../fonts/public-sans/PublicSans-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Public Sans Extra Bold";
+    src: url("../fonts/public-sans/PublicSans-ExtraBold.woff2") format("woff2"),
+        url("../fonts/public-sans/PublicSans-ExtraBold.woff") format("woff");
+}
+
+/* Light mode */
+
+:root,
+[data-bs-theme=light] {
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212121;
+    --bs-primary: rgb(33, 33, 33);
+    --bs-secondary: #212121;
+    --bs-success: #198754;
+    --bs-info: var(--bs-body-color);
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #ffffff;
+    --bs-dark: #000000;
+    --bs-primary-rgb: 33, 33, 33;
+    --bs-secondary-rgb: 333, 333, 333;
+    --bs-success-rgb: 25, 135, 84;
+    --bs-info-rgb: 255, 255, 255;
+    --bs-warning-rgb: 255, 193, 7;
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-light-rgb: 248, 249, 250;
+    --bs-dark-rgb: 0, 0, 0;
+    --bs-primary-text-emphasis: #212121;
+    --bs-secondary-text-emphasis: #2b2f32;
+    --bs-success-text-emphasis: #0a3622;
+    --bs-info-text-emphasis: var(--bs-body-color);
+    --bs-warning-text-emphasis: #664d03;
+    --bs-danger-text-emphasis: #58151c;
+    --bs-light-text-emphasis: #495057;
+    --bs-dark-text-emphasis: #495057;
+    --bs-primary-bg-subtle: #cfe2ff;
+    --bs-secondary-bg-subtle: #e2e3e5;
+    --bs-success-bg-subtle: #d1e7dd;
+    --bs-info-bg-subtle: #cff4fc;
+    --bs-warning-bg-subtle: #fff3cd;
+    --bs-danger-bg-subtle: #f8d7da;
+    --bs-light-bg-subtle: #fcfcfd;
+    --bs-dark-bg-subtle: #ced4da;
+    --bs-primary-border-subtle: #9ec5fe;
+    --bs-secondary-border-subtle: #c4c8cb;
+    --bs-success-border-subtle: #a3cfbb;
+    --bs-info-border-subtle: var(--bs-secondary-bg);
+    --bs-warning-border-subtle: #ffe69c;
+    --bs-danger-border-subtle: #f1aeb5;
+    --bs-light-border-subtle: #e9ecef;
+    --bs-dark-border-subtle: #adb5bd;
+    --bs-white-rgb: 255, 255, 255;
+    --bs-black-rgb: 0, 0, 0;
+    --bs-font-serif: "Times New Roman", Times, Baskerville, "Times New Roman", "Baskerville Serif", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-sans-serif: "Public Sans Regular", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: "Roboto Mono Regular", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: none;
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-size: 1.1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212121;
+    --bs-body-color-rgb: 33, 33, 33;
+    --bs-body-bg: #ffffff;
+    --bs-body-bg-rgb: 255, 255, 255;
+    --bs-emphasis-color: #212121;
+    --bs-emphasis-color-rgb: 333, 333, 333;
+    --bs-secondary-color: rgba(33, 33, 33, 1);
+    --bs-secondary-color-rgb: 33, 33, 33;
+    --bs-secondary-bg: #212121;
+    --bs-secondary-bg-rgb: 333, 333, 333;
+    --bs-tertiary-color: rgba(33, 37, 41, 0.5);
+    --bs-tertiary-color-rgb: 33, 37, 41;
+    --bs-tertiary-bg: #e6e6e6;
+    --bs-tertiary-bg-rgb: 230, 230, 230;
+    --bs-heading-color: inherit;
+    --bs-link-color: #0d6efd;
+    --bs-link-color-rgb: 13, 110, 253;
+    --bs-link-decoration: underline;
+    --bs-link-hover-color: #0d6efd;
+    --bs-link-hover-color-rgb: 13, 110, 253;
+    --bs-code-color: #d63384;
+    --bs-highlight-color: #212529;
+    --bs-highlight-bg: #fff3cd;
+    --bs-border-width: 1px;
+    --bs-border-style: solid;
+    --bs-border-color: #ffffff;
+    --bs-border-color-translucent: rgba(333, 333, 333, 0.15);
+    --bs-border-radius: .25rem;
+    --bs-border-radius-sm: .25rem;
+    --bs-border-radius-lg: .25rem;
+}
+
+/* Dark mode */
+
+[data-bs-theme=dark] {
+    color-scheme: dark;
+    --bs-body-color: #fff;
+    --bs-body-color-rgb: 255, 255, 255;
+    --bs-body-bg: #000;
+    --bs-body-bg-rgb: 84, 39, 143;
+    --bs-emphasis-color: #fff;
+    --bs-emphasis-color-rgb: 255, 255, 255;
+    --bs-secondary-color: rgba(255, 255, 255, 1);
+    --bs-secondary-color-rgb: 255, 255, 255;
+    --bs-secondary-bg: #9355dc;
+    --bs-secondary-bg-rgb: 147, 85, 220;
+    --bs-tertiary-color: rgba(255, 255, 255, 0.5);
+    --bs-tertiary-color-rgb: 255, 255, 255;
+    --bs-tertiary-bg: #39215e;
+    --bs-tertiary-bg-rgb: 43, 48, 53;
+    --bs-primary-text-emphasis: #6ea8fe;
+    --bs-secondary-text-emphasis: #a7acb1;
+    --bs-success-text-emphasis: #75b798;
+    --bs-info-text-emphasis: #6edff6;
+    --bs-warning-text-emphasis: #ffda6a;
+    --bs-danger-text-emphasis: #ea868f;
+    --bs-light-text-emphasis: #f8f9fa;
+    --bs-dark-text-emphasis: #dee2e6;
+    --bs-primary-bg-subtle: #031633;
+    --bs-secondary-bg-subtle: #161719;
+    --bs-success-bg-subtle: #051b11;
+    --bs-info-bg-subtle: #032830;
+    --bs-warning-bg-subtle: #332701;
+    --bs-danger-bg-subtle: #2c0b0e;
+    --bs-light-bg-subtle: #343a40;
+    --bs-dark-bg-subtle: #1a1d20;
+    --bs-primary-border-subtle: #084298;
+    --bs-secondary-border-subtle: #41464b;
+    --bs-success-border-subtle: #0f5132;
+    --bs-info-border-subtle: #087990;
+    --bs-warning-border-subtle: #997404;
+    --bs-danger-border-subtle: #842029;
+    --bs-light-border-subtle: #495057;
+    --bs-dark-border-subtle: #343a40;
+    --bs-heading-color: inherit;
+    --bs-link-color: #ffffff;
+    --bs-link-hover-color: #ffffff;
+    --bs-link-color-rgb: 255, 255, 255;
+    --bs-link-hover-color-rgb: 255, 255, 255;
+    --bs-code-color: #e685b5;
+    --bs-highlight-color: #dee2e6;
+    --bs-highlight-bg: #664d03;
+    --bs-border-color: #9355dc;
+}
+
+h1, h2 {
+    font-family: "Public Sans Bold", sans-serif !important;
+    line-height: inherit;
+}
+
+.lead {
+    font-family: "Public Sans Thin", sans-serif !important;
+}
+
+.btn-outline-primary, a.btn-outline-primary, a.btn-outline-primary:visited {
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.btn-outline-primary:hover, a.btn-outline-primary:hover {
+    color: #000 !important;
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
