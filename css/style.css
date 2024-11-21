@@ -128,7 +128,7 @@
     --bs-highlight-bg: #fff3cd;
     --bs-border-width: 1px;
     --bs-border-style: solid;
-    --bs-border-color: #ffffff;
+    --bs-border-color: #2d2e2f;
     --bs-border-color-translucent: rgba(333, 333, 333, 0.15);
     --bs-border-radius: .25rem;
     --bs-border-radius-sm: .25rem;
@@ -185,10 +185,18 @@
     --bs-code-color: #e685b5;
     --bs-highlight-color: #dee2e6;
     --bs-highlight-bg: #664d03;
-    --bs-border-color: #9355dc;
+    --bs-border-color: #a9aeb1;
 }
 
-h1, h2 {
+body {
+    background-image: url(../assets/img/bg.png);
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+h1, h2, h3, .btn {
     font-family: "Public Sans Bold", sans-serif !important;
     line-height: inherit;
 }
