@@ -217,6 +217,7 @@ body, .lead, .small {
 }
 
 .plyr {
+    border-radius: .25rem !important;
     width: 100%;
 }
 
@@ -231,5 +232,3 @@ body, .lead, .small {
 .plyr__control {
     color: #fff !important;
 }
-
-.plyr--full-ui input[type=range] {}
