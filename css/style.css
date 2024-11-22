@@ -201,8 +201,8 @@ h1, h2, h3, .btn {
     line-height: inherit;
 }
 
-.lead, .small {
-    font-family: "Public Sans Thin", sans-serif !important;
+body, .lead, .small {
+    font-family: "Public Sans Light", sans-serif !important;
 }
 
 .btn-outline-primary, a.btn-outline-primary, a.btn-outline-primary:visited {
