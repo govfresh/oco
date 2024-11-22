@@ -201,7 +201,7 @@ h1, h2, h3, .btn {
     line-height: inherit;
 }
 
-.lead {
+.lead, .small {
     font-family: "Public Sans Thin", sans-serif !important;
 }
 
@@ -214,4 +214,12 @@ h1, h2, h3, .btn {
     color: #000 !important;
     background-color: #fff !important;
     border-color: #fff !important;
+}
+
+.plyr {
+    width: 100%;
+}
+
+:root {
+    --plyr-color-main: #1ac266;
 }
