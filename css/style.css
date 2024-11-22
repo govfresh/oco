@@ -221,5 +221,15 @@ body, .lead, .small {
 }
 
 :root {
-    --plyr-color-main: #1ac266;
+    --plyr-color-main: #2491ff;
 }
+
+.plyr__controls {
+    background: #000 !important;
+}
+
+.plyr__control {
+    color: #fff !important;
+}
+
+.plyr--full-ui input[type=range] {}
