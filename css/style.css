@@ -222,7 +222,7 @@ body, .lead, .small {
 }
 
 :root {
-    --plyr-color-main: #2491ff;
+    --plyr-color-main: #fff;
 }
 
 .plyr__controls {
